@@ -1,0 +1,13 @@
+`docker --version` permite ver la version de docker
+`docker images`   permite ver las imagenes
+`docker run` permite crear un contenedor
+Ejemplo de creacion de contenedor basico
+---
+``docker``
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:latest
+``docker ps`` contenedores ejecutados
+``docker ps -a``contenedore ejecutado y no
+``docker stop id o nombre del contenedor`` 
+``docker start id o nombre del contenedor``
+``docker container ls -a``
+``docker rm -f id o nombre`` sirve para borra los contenedores
